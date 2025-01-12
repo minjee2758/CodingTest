@@ -5,8 +5,9 @@ for i in range(19) :
 
 count = int(input())
 for i in range(count) :
-    for j in range(i) :
         x, y = map(int, input().split())
+        x -= 1
+        y -= 1
         for l in range(19) :
             if l == y :
                 continue
