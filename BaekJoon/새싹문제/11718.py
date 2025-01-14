@@ -1,5 +1,6 @@
-n =0
-while n<=100 :
-    n +=1
-    S = input()
-    print(S)
+while True :
+    try :
+        a = input()
+        print(a)
+    except :
+        break

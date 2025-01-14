@@ -1,2 +1,4 @@
-print(123)
-print("Your_ICPC_Team_Name")
+
+
+print(35)
+print("workingminjee")
