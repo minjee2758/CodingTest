@@ -1,14 +1,10 @@
-# 카드210
-import math
+from collections import deque
+
 N = int(input())
+cards = deque(range(1, N + 1))
 
-k = int(math.log2(N))
-maxK = 2**k
+while len(cards) > 1:
+    cards.popleft()  
+    cards.append(cards.popleft())  
 
-
-l = N-maxK
-
-if N ==1 :
-    print(1)
-else :
-    print(2*l)
+print(cards[0])  

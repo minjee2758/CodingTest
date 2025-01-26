@@ -1,6 +1,4 @@
 #제로
-import sys
-
 K = int(input())
 L = []
 
