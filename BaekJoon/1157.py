@@ -13,6 +13,6 @@ for i in range(26) :
         P.append(i)
 
 if len(P)>1 :
-    print("?")
+    print("?") 
 else :
     print(chr(P[0]+65))
