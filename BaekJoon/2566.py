@@ -1,4 +1,3 @@
-#3 23 85 34 17 74 25 52 65
 List = []
 Location = [0 for i in range(9)]
 for i in range(9) :
