@@ -1,0 +1,5 @@
+-- 코드를 작성해주세요
+SELECT COUNT(*) AS 'COUNT' 
+FROM ECOLI_DATA
+WHERE (GENOTYPE & b'10') !=2 and (GENOTYPE & b'0101') IN (1,4,5)
+
